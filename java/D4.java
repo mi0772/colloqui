@@ -4,11 +4,8 @@ class A {
     }
 }
 
-class B extends A {
-    // perchè B non compila ?
-}
 
 
-public class D4 {
+public class D4 extends A {
     
 }

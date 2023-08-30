@@ -1,0 +1,13 @@
+@FunctionalInterface
+public interface D9 {
+    void metodo1();
+    void metodo2();
+}
+
+@FunctionalInterface
+interface D9_2 {
+    void metodo1();
+    default void metodo2() {
+        System.out.println("Ciao");
+    }
+}

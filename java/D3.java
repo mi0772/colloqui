@@ -1,12 +1,12 @@
-class B extends A {
-    void metodo() {
-        System.out.println("ciao, sono il metodo di B");
-    }
-}
-
 class A {
     void metodo() {
         System.out.println("ciao, sono il metodo di A");
+    }
+}
+
+class B extends A {
+    void metodo() {
+        System.out.println("ciao, sono il metodo di B");
     }
 }
 
