@@ -12,7 +12,7 @@ public class D2 {
         System.out.println("C");
     }
 
-    public D2() {
+    private D2() {
         System.out.println("D");
     }
 

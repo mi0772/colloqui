@@ -6,7 +6,7 @@ public class D1 {
         System.out.println(s);
     }
 
-    private static String alterString(String sorgente) {
-        return sorgente + " modificata";
+    private static void alterString(String sorgente) {
+        sorgente += " modificata";
     }
 }
